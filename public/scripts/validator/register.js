@@ -5,7 +5,7 @@ const usersList = [];
 
 
 window.onload = function () {
-    fetch('http://localhost:3000/api/users',{
+    fetch('https://app-reckless.herokuapp.com/api/users',{
         method: 'POST',
         body: JSON.stringify(),
         headers:{
